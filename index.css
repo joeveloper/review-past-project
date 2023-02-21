@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto","Arial",sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img {
+    cursor: pointer;
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background: #fff;
+    position: static;
+    top: 0;
+    z-index: 10px;
+}
+
+.nav-left img {
+    width: 100px;
+}
+
+.nav-right i {
+    width: 25px;
+    margin-right: 2px;
+}
+
+.nav.middle i{
+    width: 16px;
+}
+
+.search-box {
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+
+}
+
+.search-box i {
+    width: 15px;
+}
+
+/* ------------------VIDEO PLAYER CSS------------------ */
+.play-container {
+    padding-left: 2%;
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.play-video {
+    flex-basis: 69%;
+}
+
+.play-video iframe {
+    width: 100%;
+    max-height: 400px;
+}
+
+.right-sidebar {
+    flex-basis: 30%;
+    margin-right: 4px;
+}
+
+.side-video-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.side-video-list img{
+    width: 100%;
+}
+
+.side-video-list .small-thumbnail{
+    flex-basis: 49%;
+}
+
+
+.side-video-list .vid-info {
+    flex-basis: 49%;
+}
+
+.side-video-list p {
+    font-size: 10px;
+    
+}
+
+.vid-info a{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.play-video h3 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.play-video .video-desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.play-video .video-desc a i {
+  width: 20px;
+  margin-right: 8px;
+
+}
+
+.play-video .video-desc a {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.play-video hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
